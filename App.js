@@ -9,7 +9,6 @@
         <h2>h2 tag</h2/>
     </div>
 </div>
-
 */
 
 const h1 = React.createElement("div",{"id":"parent"},[
