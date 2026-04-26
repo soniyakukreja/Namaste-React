@@ -1,0 +1,33 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "\"initiated npm by self \"",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soniyakukreja/Namaste-React.git"
+  },
+  "keywords": [
+    "\"testing",
+    "npm",
+    "init\""
+  ],
+  "author": "soniya kukreja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soniyakukreja/Namaste-React/issues"
+  },
+  "homepage": "https://github.com/soniyakukreja/Namaste-React#readme",
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
+  },
+  "browserslist":[
+    "last 2 versions"
+  ]
+}
