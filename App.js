@@ -13,6 +13,7 @@ import ReactDOM from "react-dom/client";
 </div>
 */
 
+/*
 const h1 = React.createElement("div",{"id":"parent"},[
     React.createElement("div",{"id":"child1","key":"child1"},
         [
@@ -27,6 +28,18 @@ const h1 = React.createElement("div",{"id":"parent"},[
         ]
     )
 ]);
+
+*/
+const Title = ()=><h1 id="heading1">I'm Title component</h1>
+const HeadingComponent = ()=>(
+    <div id="container" >
+        <Title />
+        {Title()}
+        <Title></Title>
+        <h1>Namaste react heading component</h1>
+    </div>
+)
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(h1);
+root.render(<HeadingComponent />);
